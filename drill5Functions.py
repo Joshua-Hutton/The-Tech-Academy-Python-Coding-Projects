@@ -80,7 +80,7 @@ def printFiles(filePaths1,filePaths2,files):
         datetimeList.append(datetime.datetime.fromtimestamp(os.path.getmtime(filePaths2[i])).strftime('%c'))                   
         i = i + 1
 
-        dbInput(files,datetimeList)
+    dbInput(files,datetimeList)
 
 #drill 2
 
